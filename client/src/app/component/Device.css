@@ -1,0 +1,31 @@
+.device {
+    position: relative;
+    height: 10%;
+    background-color: #363b45;
+    margin-bottom: 5px;
+    border-bottom-right-radius: 20px;
+}
+
+.device > .status {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+.on {
+    background-color: greenyellow;
+}
+
+.off {
+    background-color: red;
+}
+
+.device > .id, .name {
+    text-align: left;
+    padding: 10px 0 0 10px;
+    font-weight: bold;
+}
