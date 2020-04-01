@@ -4,14 +4,14 @@
 }
 
 .topnav {
-    background-color: #252831;
+    //background-color: #252831;
     height: 60px;
 }
 
 .devices {
     height: 100%;
     width: 20%;
-    background-color: #252831;
+    //background-color: #252831;
     position: absolute;
     left: 0;
 }
@@ -19,7 +19,7 @@
 .viewport {
     height: 100%;
     width: 80%;
-    background-color: #282c34;
+    //background-color: #282c34;
     position: absolute;
     right: 0;
 }
